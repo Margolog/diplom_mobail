@@ -1,5 +1,4 @@
 import allure
-import pytest
 from appium.webdriver.common.appiumby import AppiumBy
 from selene import have
 from selene.support.shared import browser

@@ -1,12 +1,9 @@
 import os
-
 import pytest
 from appium import webdriver
 from dotenv import load_dotenv
 from utils.attachments import add_video
 from selene.support.shared import browser
-
-
 
 
 @pytest.fixture(scope='function', autouse=True)
