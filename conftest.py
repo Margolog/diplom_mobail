@@ -1,10 +1,12 @@
 import os
+
 import pytest
 from appium import webdriver
-from appium.options.android import UiAutomator2Options
 from dotenv import load_dotenv
 from utils.attachments import add_video
 from selene.support.shared import browser
+
+
 
 
 @pytest.fixture(scope='function', autouse=True)
