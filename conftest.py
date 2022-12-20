@@ -2,7 +2,7 @@ import os
 import pytest
 from appium import webdriver
 from dotenv import load_dotenv
-from utils.attachments import add_video
+from utils.attachments import *
 from selene.support.shared import browser
 
 
@@ -28,5 +28,8 @@ def setup_browser():
     )
     browser.config.timeout = 4
     yield setup_browser
+
     add_video(browser)
+    add_screenshot(browser)
+    add_xml_dump(browser)
     browser.quit()

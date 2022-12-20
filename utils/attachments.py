@@ -9,3 +9,19 @@ def add_video(browser):
            + video_url \
            + "' type='video/mp4'></video></body></html>"
     allure.attach(html, 'video_' + browser.driver.session_id, AttachmentType.HTML, '.html')
+
+
+def add_screenshot(browser):
+    allure.attach(
+        browser.driver.get_screenshot_as_png(),
+        name='screenshot',
+        attachment_type=allure.attachment_type.PNG
+    )
+
+
+def add_xml_dump(browser):
+    allure.attach(
+        browser.driver.page_source,
+        name='page xml dump',
+        attachment_type=allure.attachment_type.XML
+    )
