@@ -33,12 +33,12 @@
 > - Переход на страницу условий.
 
 
-## Сборка в [Jenkins](https://jenkins.autotests.cloud/job/002-Margologu-UI/)
+## Сборка в [Jenkins](https://jenkins.autotests.cloud/job/002-Margologu-mobail/)
 <p align="center">
   <img src="resources/images/jenkins.jpg" alt="Jenkins"/>
 </p>
 
-## Информация о тестах в [Allure report](////)
+## Информация о тестах в [Allure report](https://jenkins.autotests.cloud/job/002-Margologu-mobail/allure/)
 <p align="center">
   <img src="resources/images/first.jpg" alt="Allure report"/>
 </p>
@@ -50,12 +50,8 @@
 </p>
 
 
-#### Графики
-<p align="center">
-  <img src="resources/images/graf.jpg" alt="Allure report"/>
-</p>
 
-## Интеграция с [Allure TestOps](https://allure.autotests.cloud/project/1760/dashboards)
+## Интеграция с [Allure TestOps](https://allure.autotests.cloud/launch/17799)
 ### Тест-кейсы
 <p align="center">
   <img src="resources/images/test_cases.jpg" alt="Allure TestOps"/>
