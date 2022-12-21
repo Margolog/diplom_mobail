@@ -22,10 +22,11 @@ def setup_browser():
     }
     USER_NAME = os.getenv('USER_NAME')
     ACCESS_KEY = os.getenv('ACCESS_KEY')
+
     browser.config.driver = webdriver.Remote(
         command_executor=f"https://{USER_NAME}:{ACCESS_KEY}@hub-cloud.browserstack.com/wd/hub",
-        desired_capabilities=options
-    )
+        options=options)
+
     browser.config.timeout = 4
     yield setup_browser
 
