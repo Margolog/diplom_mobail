@@ -9,9 +9,9 @@ class SearchResultsPage:
     search_results = (AppiumBy.CLASS_NAME, 'android.widget.TextView')
 
     def click_on_return(self):
-        with allure.step('Нажимаем кнопку возврата на предыдущую страницу'):
+        with allure.step('Нажать кнопку возврата'):
             browser.element(self.button_return).click()
 
-    def assert_results_exist(self):
-        with allure.step('Выполняем проверку результатов поиска'):
+    def assert_results(self):
+        with allure.step('Выполнить проверку результатов поиска'):
             browser.all(self.search_results).should(have.size_greater_than(0))

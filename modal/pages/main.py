@@ -16,14 +16,7 @@ class MainPage:
             browser.element(self.field_search_init).click()
             browser.element(self.field_search_do).type(value)
 
-    def open_action_menu(self):
-        with allure.step('Открыть меню'):
-            browser.element(self.button_action_menu).click()
-
-    def open_settings(self):
-        with allure.step('Выбираем в меню пункт Settings'):
-            browser.element(self.button_settings).click()
 
     def assert_main(self):
-        with allure.step('Выполняем проверку заголовка на главной странице'):
+        with allure.step('Проверка заголовка на главной странице'):
             browser.element(self.title).should(be.visible)
