@@ -38,7 +38,7 @@
   <img src="resources/images/jenkins.jpg" alt="Jenkins"/>
 </p>
 
-## Информация о тестах в [Allure report](https://jenkins.autotests.cloud/job/002-Margologu-UI/9/allure/)
+## Информация о тестах в [Allure report](////)
 <p align="center">
   <img src="resources/images/first.jpg" alt="Allure report"/>
 </p>
