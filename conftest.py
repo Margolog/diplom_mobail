@@ -40,29 +40,3 @@ def setup_browser():
     add_screenshot(browser)
     add_xml_dump(browser)
     browser.quit()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    add_video(browser)
-    add_screenshot(browser)
-    add_xml_dump(browser)
-    browser.quit()
