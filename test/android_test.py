@@ -1,5 +1,5 @@
 import allure
-from modal import app
+from model import app
 
 
 @allure.title('Test search item')
