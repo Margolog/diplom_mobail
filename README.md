@@ -1,4 +1,4 @@
-# Проект автоматизации тестирования для <a target="_blank" href="https://shop.spacex.com/">shop.spacex</a>
+# Проект автоматизации тестирования для <a target="_blank" href="">wiki</a>
 
 ## :open_book: Содержание:
 - [Технологии и инструменты](#gear-в-проекте-используются-следующие-технологии-и-инструменты)
@@ -27,11 +27,11 @@
 
 ## :heavy_check_mark: Что проверяем
 
-> - Переход на страницу опалаты;
-> - Переход на страницу вопросов;
-> - Переход на страницу политики конфиденциальности;
-> - Переход на страницу условий.
-
+> - Test search item;
+> - Test search symbols;
+> - Test search space;
+> - Test search numbers;
+> - Test return to main.
 
 ## Сборка в [Jenkins](https://jenkins.autotests.cloud/job/002-Margologu-mobail/)
 <p align="center">
